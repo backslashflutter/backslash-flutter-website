@@ -20,4 +20,6 @@ export const mediaQueries = Object.entries(screens).reduce((acc, [key, val]) => 
   acc[`min` + Key + `Js`] = min(val)
   acc[`max` + Key + `Js`] = max(val)
   return acc
-}, {})
+},
+
+{})
